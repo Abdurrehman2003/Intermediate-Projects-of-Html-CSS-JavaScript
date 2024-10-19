@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math Quiz App</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+      defer
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="box">
+        <h2>Score → <span id="score">0</span></h2>
+        <h3 id="question">Q. What is 8 multiply by 4?</h3>
+        <form id="questionForm" onsubmit="checkAnswer(event)">
+          <input required id="answerInput" name="answer" type="number" />
+          <button class="primary-btn" type="submit">Submit</button>
+          <button type="button" class="reset-btn" onclick="resetGame()">Reset</button> <!-- Reset Button -->
+        </form>
+        <!-- Add Reset Button -->
+        <!-- <button id="resetBtn" class="primary-btn" onclick="resetGame()">
+          Reset
+        </button> -->
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
