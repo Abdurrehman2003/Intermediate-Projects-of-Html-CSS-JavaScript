@@ -81,12 +81,9 @@ Here are a few resources that helped shape these projects:
 - [MDN Web Docs](https://developer.mozilla.org/)
 - [W3Schools](https://www.w3schools.com/)
 - [JavaScript Info](https://javascript.info/)
+- 
 
-## 🎥 Demo and Showcase
-
-Check out the **live demo** of these projects here: [Demo Link](https://your-demo-link.com).
-
-Screenshots of some key projects:
+## 📸 Screenshots of some key projects:
 
 <img width="320" alt="p9" src="https://github.com/user-attachments/assets/d52e58e1-0c3d-4778-8fc3-84c242682931">
 
